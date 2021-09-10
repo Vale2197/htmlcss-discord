@@ -10,3 +10,76 @@
     clear: both;
 }
 
+/* DEBUG CLASS */
+.debug header {
+    height: 70px;
+    background-color: aqua;
+}
+
+.debug nav .logo {
+    background-color: black;
+}
+
+.debug nav ul {
+    height: 70px;
+    background-color: palevioletred;
+}
+
+.debug nav button {
+    background-color: papayawhip;
+}
+/* / DEBUG CLASS */
+
+/* HEADER */
+header {
+    width: 100%;
+    background-color: #3161E0;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    height: 70px;
+}
+
+nav .logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    vertical-align: middle;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 70px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 28px;
+    vertical-align: middle;
+}
+
+nav button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 11px 21px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    vertical-align: middle;
+}
+/* / HEADER */
