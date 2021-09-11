@@ -223,3 +223,45 @@ h1 {
     font-weight: bold;
 }
 /* / SEZIONE TROVARSIFACILE */
+
+/* SEZIONE FANDOM */
+#fandom {
+    width: 100%;
+    background-color: white;
+    padding: 100px 0;
+}
+
+#fandom .container {
+    width: 70%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+#fandom .container .img {
+    float: left;
+    width: calc(70% - 101px);
+    margin-right: 101px;
+}
+
+#fandom .container .paragrafo {
+    float: left;
+    width: 30%;;
+}
+
+#fandom .container .img img {
+    width: 100%;
+}
+
+#fandom .container .paragrafo h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+#fandom .container .paragrafo p {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* / SEZIONE FANDOM */
