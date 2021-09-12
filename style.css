@@ -338,3 +338,94 @@ h1 {
     font-size: 20px;
 }
 /* / SEZIONE DOWNLOAD */
+
+/* SEZIONE FOOTER */
+footer {
+    width: 100%;
+    background-color: #23272A;
+    color: white;
+    padding: 100px 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+footer .containerFooter {
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid #7289DA;
+    padding-bottom: 40px;
+}
+
+footer .contatti {
+    float: left;
+    width: calc(100%/5 - 4rem);
+}
+
+footer ul {
+    float: left;
+    list-style-type: none;
+    width: calc(100%/5 - 4rem);
+    margin-left: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #7289DA;
+}
+
+footer ul li {
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    padding: 7px 0;
+}
+
+.containerFooter .contatti form img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+footer select {
+    vertical-align: middle;
+    background: none;
+    color: white;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+}
+
+footer .contatti form {
+    padding: 29px 0;
+    padding-bottom: 3px;
+}
+
+footer .contatti i {
+    padding-right: 15px;
+}
+
+footer .contatti h2 {
+    font-family: 'Changa One', cursive;
+    font-size: 26px;
+    font-weight: 700;
+    color: #7289DA;
+}
+
+.containerFooterLogo {
+    width: 70%;
+    margin:auto;
+    padding-top: 40px;
+}
+
+.containerFooterLogo .logo {
+    float: left;
+    vertical-align: middle;
+}
+
+.containerFooterLogo button {
+    float: right;
+    vertical-align: middle;
+    border: none;
+    background-color: #8EA1E1;
+    padding: 9px 21px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+}
+/* / SEZIONE FOOTER */
