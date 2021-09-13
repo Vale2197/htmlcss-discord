@@ -37,6 +37,11 @@ header {
     color: white;
     font-weight: bold;
     font-size: 18px;
+    background-color: #3161E0;
+}
+
+nav .logo img {
+    vertical-align: middle;
 }
 
 nav {
