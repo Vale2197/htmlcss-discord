@@ -50,15 +50,17 @@ nav .logo {
     vertical-align: middle;
     float: left;
     line-height: 70px;
+    width: 20%;
 }
 
 nav ul {
+   
     list-style-type: none;
     line-height: 70px;
     vertical-align: middle;
-    width: 50%;
     text-align: center;
-    margin: auto;
+    float: left;
+    width: 60%;
 }
 
 nav ul li {
@@ -67,11 +69,14 @@ nav ul li {
     vertical-align: middle;
 }
 
+nav .accedi {
+    float: left;
+    line-height: 70px;
+    width: 20%;
+    text-align: right;
+}
+
 nav button {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translate(0, -50%);
     padding: 11px 21px;
     border-radius: 20px;
     border: none;
